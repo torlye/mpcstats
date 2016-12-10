@@ -359,7 +359,7 @@ namespace mpcstats
                 }
             }
 
-            output = input.Substring(0, rm_pos);
+            output = (rm_pos < input.Length) ? input.Substring(0, rm_pos) : input;
             output = output.Trim();
             return output;
         }
