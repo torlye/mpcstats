@@ -8,7 +8,7 @@ This project was originally created by Duncan Grieve in 2008 and forked by mysel
 The project was originally written in VB.NET, but was converted to C# using a tool.
 
 # Installation #
-Get mpcstats.dll, mpcstats.xml, and mpcstats.dll.config from the latest release. Copy these files to the LCD Smartie plugin directory.
+Get mpcstats.dll and mpcstats.dll.config from the latest release. Copy these files to the LCD Smartie plugin directory.
 
 Make sure you have msvcr71.dll in the LCD Smartie directory. Otherwise you may get a "Load of plugin failed" error.
 
